@@ -1,20 +1,20 @@
-# Görüntü Şifreleme Sistemi
+# Image Encryption System
 
-Bu proje, matris analizi temelli bir görüntü şifreleme ve çözme uygulamasıdır.  
-Uygulama, Streamlit arayüzü üzerinden kullanıcıdan alınan görüntüyü şifreler ve doğru anahtar ile tekrar çözer.
+This project is an image encryption and decryption application based on matrix analysis.
+The application encrypts an image uploaded by the user through a Streamlit interface and decrypts it again using the correct key.
 
 ## Kullanılan Yöntemler
-- Permütasyon matrisi (piksel konumlarını karıştırma)
-- Block scrambling (blok bazlı karıştırma)
-- XOR tabanlı diffusion (piksel değerlerini değiştirme)
+- Permutation matrix (shuffling pixel positions)
+- Block scrambling (block-based shuffling)
+- XOR-based diffusion (modifying pixel values)
 
-## Kullanılan Teknolojiler
+## Technologies Used
 - Python
 - Streamlit
 - NumPy
 - Pillow
 
-## Uygulamayı Çalıştırma
+## Running the Application
 
 ```bash
 pip install -r requirements.txt
